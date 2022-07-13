@@ -10,7 +10,7 @@ h1{
 .inputtt{
     text-align: center;
     padding-top: 30px;
-   
+    text-align: center;
 }
 .numbers{
     font-size: 2rem;
@@ -29,9 +29,9 @@ h2{
     text-align: center;
     padding-right: 300px;
 }
-.btn-success{
+.bb{
     text-align: center;
-    margin-left:500px ;
+   
     margin-top: 50px;
     
 }
