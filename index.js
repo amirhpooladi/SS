@@ -14,13 +14,14 @@ x2=(-b-jazrD)/(2*a);
     risheHa(a1,b1,c1);
 
 
-  
- 
-    
- 
-    document.getElementById("x1").innerHTML=x1;
-    document.getElementById("x2").innerHTML=x2;
- 
+    if(x1){
+        document.getElementById("delta").innerHTML=" ";
+        document.getElementById("x1").innerHTML=x1;
+        document.getElementById("x2").innerHTML=x2;
+    }else{
+        document.getElementById("delta").innerHTML="معادله ریشه حقیقی ندارد";
+        
+   }
    
  }
 
